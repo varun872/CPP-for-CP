@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+    // 'if' and 'else' can be used together to create conditions
+    // It returns 1 if the condition is true and 0 if the condition is false
     // Program to find the largest element
     int a,b,c;
     cout<<"Enter 3 values: ";
