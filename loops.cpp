@@ -20,5 +20,14 @@ int main()
         cout<<"The value of x is: "<<x<<endl;
         cin>>x; // The while loop stops as soon as x is -ve
     }
+    
+    // do while loop
+    // This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true
+    int i = 0;
+    do {
+        cout << i << endl;
+        i = i+1;
+    }
+    while (i < 6);
     return 0;
 }
