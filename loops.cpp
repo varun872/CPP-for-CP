@@ -29,5 +29,11 @@ int main()
         i = i+1;
     }
     while (i < 6);
+
+    // for each loop
+    int num[8] = {10, 20, 30, 40, 50, 60, 70, 80};
+    for (int i : num ) {
+    cout << i << endl;
+    }
     return 0;
 }
