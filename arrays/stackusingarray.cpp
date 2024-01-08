@@ -2,11 +2,11 @@
 using namespace std;
 
 class Stack {
-public:
     vector<int> arr;
-    int Top = -1;
-
+    int Top;
+public:
     Stack(int capacity) {
+        Top = -1;
         arr.resize(capacity);
     }
 
@@ -40,9 +40,9 @@ int main() {
     st.push(3);
     st.push(5);
     st.push(7);
-    cout<<st.top()<<endl;
     cout<<st.pop()<<endl;
-    cout<<st.top()<<endl;
+    cout<<st.pop()<<endl;
+    cout<<st.pop()<<endl;
     cout<<st.pop()<<endl;
     return 0;
 }
